@@ -1,14 +1,6 @@
 {
-	"name": "tenantcloud/php-serialization",
-	"description": "TenantCloud's serialization for PHP",
 	"minimum-stability": "stable",
-	"license": "proprietary",
-	"authors": [
-		{
-			"name": "Oleksandr Prypkhan",
-			"email": "autaut03@gmail.com"
-		}
-	],
+	"license": "MIT",
 	"require": {
 		"php": ">=7.4"
 	},
