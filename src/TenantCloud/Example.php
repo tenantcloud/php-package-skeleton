@@ -4,5 +4,4 @@ namespace TenantCloud;
 
 class Example
 {
-
 }
