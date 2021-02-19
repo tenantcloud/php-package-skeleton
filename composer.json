@@ -1,4 +1,6 @@
 {
+	"name": "tenantcloud/composer-package",
+	"description": "A template for composer packages",
 	"minimum-stability": "stable",
 	"license": "MIT",
 	"require": {
