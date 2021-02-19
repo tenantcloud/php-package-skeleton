@@ -1,14 +1,8 @@
 {
-	"name": "tenantcloud/php-serialization",
-	"description": "TenantCloud's serialization for PHP",
+	"name": "tenantcloud/composer-package",
+	"description": "A template for composer packages",
 	"minimum-stability": "stable",
-	"license": "proprietary",
-	"authors": [
-		{
-			"name": "Oleksandr Prypkhan",
-			"email": "autaut03@gmail.com"
-		}
-	],
+	"license": "MIT",
 	"require": {
 		"php": ">=7.4"
 	},
