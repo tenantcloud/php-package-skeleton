@@ -22,7 +22,6 @@ jobs:
             -   name: Create a release
                 uses: cycjimmy/semantic-release-action@v2
                 with:
-                    semantic_version: tenantcloud/semantic-release#master-v
                     extra_plugins: |
                         @semantic-release/changelog
                         @semantic-release/git
