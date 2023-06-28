@@ -1,7 +1,7 @@
 <?php
 
-use TenantCloud\MyPackage\Example;
+use TenantCloud\PackageName\Example;
 
 test('something works', function () {
-	expect(new Example())->not()->toBeNull();
+	expect(new Example())->not->toBeNull();
 });
