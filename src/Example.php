@@ -1,6 +1,6 @@
 <?php
 
-namespace TenantCloud\PackageName;
+namespace TenantCloud\Skeleton;
 
 class Example
 {
