@@ -1,0 +1,19 @@
+{
+	"plugins": [
+		"composer",
+		{
+			"name": "sync",
+			"filter": [
+				"**/*",
+				"!cli/**",
+				"!docs/**",
+				"!scripts/**",
+				"!src/**",
+				"!resources/**",
+				"!tests/**",
+				"!_ide_custom_helpers.php",
+				"!testbench.yaml"
+			]
+		}
+	]
+}
