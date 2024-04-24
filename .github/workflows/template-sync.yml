@@ -44,8 +44,8 @@ jobs:
                   body: ${{ steps.sync_from_template.outputs.report }}
 
     # See https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule
-    # GitHub automatically disables `schedule` workflows after
-    # 60 days without commits and this job is there to prevent it.
+    # GitHub automatically disables `schedule` workflows in public repositories
+    # after 60 days without commits, so this job is there to prevent it.
     workflow-keepalive:
         name: Workflow keepalive
         runs-on: ubuntu-latest
