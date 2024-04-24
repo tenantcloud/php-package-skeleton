@@ -5,6 +5,7 @@
 			"name": "sync",
 			"filter": [
 				"**/*",
+				"!.github/template-sync/**",
 				"!cli/**",
 				"!docs/**",
 				"!scripts/**",
