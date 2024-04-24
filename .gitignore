@@ -16,7 +16,7 @@
 **/.phpunit.result.cache
 
 # Temporary
-tmp/
+/tmp
 
 # Misc
 .DS_Store
