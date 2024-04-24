@@ -11,8 +11,15 @@
 				"!src/**",
 				"!resources/**",
 				"!tests/**",
+				"!bootstrap.php",
 				"!_ide_custom_helpers.php",
-				"!testbench.yaml"
+				"!testbench.yaml",
+				"!phpstan.neon",
+				"!phpstan*.neon",
+				"!README.md",
+				"!CHANGELOG.md",
+				"!docker-compose.yml",
+				"!docker-compose.*.yml"
 			]
 		}
 	]
