@@ -1,7 +1,7 @@
 CHANGELOG.md
 
 /.idea
-/vendor
 /build
 /coverage
 /tmp
+/vendor
