@@ -1,5 +1,5 @@
 {
-	"name": "tenantcloud/package-skeleton-php",
+	"name": "tenantcloud/php-package-skeleton",
 	"description": "Skeleton for PHP packages",
 	"license": "MIT",
 	"require": {
