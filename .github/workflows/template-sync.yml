@@ -58,12 +58,7 @@ jobs:
         permissions:
             actions: write
 
-        env:
-            GH_TOKEN: ${{ github.token }}
-
         steps:
-            - if: ${{ startsWith(github.workflow_ref, format('{0}/.github/workflows/', github.repository)) }}
-              run: |
-                workflow="${GITHUB_WORKFLOW_REF%%@*}"
-                workflow="${workflow#${GITHUB_REPOSITORY}/.github/workflows/}"
-                gh api -X PUT "repos/${GITHUB_REPOSITORY}/actions/workflows/${workflow}/enable"
+            - uses: liskin/gh-workflow-keepalive@v1
+              with:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
