@@ -3,6 +3,13 @@ name: Tests
 on:
     workflow_dispatch:
     pull_request:
+    push:
+        branches:
+            - master
+            - next
+            - next-major
+            - beta
+            - alpha
 
 jobs:
     phpunit:
